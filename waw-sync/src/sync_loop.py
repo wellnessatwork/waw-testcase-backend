@@ -3,7 +3,7 @@ import requests
 import json
 from pathlib import Path
 
-STATE = Path.home() / ".lumina/state.json"
+STATE = Path.home() / ".waw/state.json"
 BACKEND_URL = "http://localhost:8000/profile"
 
 def load_last_sync():

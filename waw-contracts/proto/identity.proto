@@ -1,5 +1,5 @@
 syntax = "proto3";
-package lumina.identity.v0;
+package waw.identity.v0;
 
 message UserProfile {
   string id         = 1;

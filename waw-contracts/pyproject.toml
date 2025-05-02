@@ -3,6 +3,6 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lumina-contracts"
+name = "waw-contracts"
 version = "0.0.1"
 # Add other project metadata here 

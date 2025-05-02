@@ -1,12 +1,12 @@
 """
 Minimal gRPC server stub.
-Run via: `python -m lumina_identity.identity_srv`
+Run via: `python -m waw_identity.identity_srv`
 Candidate will fill in DB + encryption.
 """
 
 import concurrent.futures       # <‑‑ add
 import grpc
-from lumina.identity.v0 import identity_pb2_grpc  # generated stubs
+from waw.identity.v0 import identity_pb2_grpc  # generated stubs
 
 class IdentityServicer(identity_pb2_grpc.IdentityServiceServicer):
     # TODO: CRUD backed by encrypted SQLite
