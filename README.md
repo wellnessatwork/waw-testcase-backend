@@ -1,7 +1,7 @@
 
 ## Clone & Bootstrap
 
-git clone https://github.com/<org>/lumina-contracts.git
+git clone https://github.com/wellnessatwork/waw-testcase-backend
 make -C lumina-contracts build
 
 ## Set Encryption Key
