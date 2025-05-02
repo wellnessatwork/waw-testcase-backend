@@ -8,6 +8,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
-      - run: pip install flake8 pytest
+      - run: pip install -r lumina-identity/requirements.txt
       - run: flake8
-      - run: pytest || true  # tests expected to fail until candidate implements
+      - run: pytest -q || true   # tests are intentionally skipped for now

@@ -1,0 +1,4 @@
+grpcio==1.64.0
+grpcio-tools==1.64.0
+pysqlite3-binary     # candidate may swap for sqlcipher lib
+python-dotenv
